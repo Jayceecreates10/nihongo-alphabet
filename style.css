@@ -41,9 +41,9 @@ img{
   text-decoration: none;
   display:flex;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-top:20px;
-  padding-right:40px;
+  padding-right:10px;
   gap: 20px;
 }
 .title{
@@ -75,7 +75,7 @@ img{
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 25px;
+  padding: 0 12px;
   text-decoration: none;
   color: white;
   transition: 0.3s ease;
@@ -85,10 +85,7 @@ img{
   align-content: center;
   color: white;
   background: linear-gradient(145deg, #ff4b4b, #8B0000);
-  padding-top: ;:6px;
-  padding-bottom: 6px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding:16px 15px;
   border-radius: 12px;
  transform: skewX(-20deg);
  flex-wrap: wrap;
@@ -109,9 +106,8 @@ img{
 }
 h1{
   font-size: 4vh;
-  margin-top: 7vh;
-  margin-left: 16vw;
   color: white;
+  text-align: center;
 }
 .name{
   color: #ff4b4b;
