@@ -4,7 +4,7 @@ body {
       circle,
       rgba(0,0,0,0.4) 10%,
       rgba(0,0,0,1) 100%),
-    url("images/Background.jpg");
+    url("Background.jpg");
 
   background-size: cover;
   background-position: center;
