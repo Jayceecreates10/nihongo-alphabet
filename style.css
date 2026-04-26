@@ -1,15 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* prevents that white space */
+  min-height: 100vh;
+}
+
 body {
   background: 
     radial-gradient(
       circle,
       rgba(0,0,0,0.4) 10%,
       rgba(0,0,0,1) 100%),
-    url("Background.jpg");
+    url("images/Background.jpg");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .navbar {
@@ -18,7 +25,6 @@ body {
   align-items: center;
   padding: 0 1vw;
   height: clamp(100px, 120px, 300px);
-  flflex-wrap:wrap;
 }
 img{ 
   margin-right:20px;
@@ -79,12 +85,13 @@ img{
   align-content: center;
   color: white;
   background: linear-gradient(145deg, #ff4b4b, #8B0000);
-  padding-top:6px;
+  padding-top: ;:6px;
   padding-bottom: 6px;
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 12px;
  transform: skewX(-20deg);
+ flex-wrap: wrap;
 }
 
 .list ul li a:hover {
